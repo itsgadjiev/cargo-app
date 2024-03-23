@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Cargo.Persistence/1.0.0": {
+        "runtime": {
+          "Cargo.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cargo.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

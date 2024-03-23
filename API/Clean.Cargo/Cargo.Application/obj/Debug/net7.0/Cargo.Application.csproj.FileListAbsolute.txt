@@ -1,0 +1,12 @@
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\bin\Debug\net7.0\Cargo.Application.deps.json
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\bin\Debug\net7.0\Cargo.Application.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\bin\Debug\net7.0\Cargo.Application.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\Cargo.Application.csproj.AssemblyReference.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\Cargo.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\Cargo.Application.AssemblyInfoInputs.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\Cargo.Application.AssemblyInfo.cs
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\Cargo.Application.csproj.CoreCompileInputs.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\Cargo.Application.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\refint\Cargo.Application.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\Cargo.Application.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\obj\Debug\net7.0\ref\Cargo.Application.dll

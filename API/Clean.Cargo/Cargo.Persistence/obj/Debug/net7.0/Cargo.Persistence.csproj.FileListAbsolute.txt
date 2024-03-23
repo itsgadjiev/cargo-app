@@ -1,0 +1,11 @@
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\bin\Debug\net7.0\Cargo.Persistence.deps.json
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\bin\Debug\net7.0\Cargo.Persistence.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\bin\Debug\net7.0\Cargo.Persistence.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\Cargo.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\Cargo.Persistence.AssemblyInfoInputs.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\Cargo.Persistence.AssemblyInfo.cs
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\Cargo.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\Cargo.Persistence.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\refint\Cargo.Persistence.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\Cargo.Persistence.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Persistence\obj\Debug\net7.0\ref\Cargo.Persistence.dll

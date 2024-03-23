@@ -1,0 +1,17 @@
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Identity.deps.json
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Identity.runtimeconfig.json
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Identity.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Identity.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Application.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Application.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.csproj.AssemblyReference.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.AssemblyInfoInputs.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.AssemblyInfo.cs
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.csproj.CoreCompileInputs.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.csproj.CopyComplete
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\refint\Cargo.Identity.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.genruntimeconfig.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\ref\Cargo.Identity.dll
