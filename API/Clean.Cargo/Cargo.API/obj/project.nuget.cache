@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dSDlPgRaHCMKNYGNSaXNhNcP1T8n652mdlrgWURnUZWkAoXGc5fqvq6iSA3ACbs+lCl/FNX/zXy8sIk7l/4x3A==",
+  "dgSpecHash": "Wj2KQJAhrW5FIvJieUJAlvs0w7HE5iAemD3JxO449Lq+MbrRdDvwncFYF03+RHkA4uR5xNzebFgieyd/065CLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ceyhu\\OneDrive\\Рабочий стол\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Cargo.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ceyhu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

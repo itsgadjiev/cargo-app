@@ -15,3 +15,4 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.pdb
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.genruntimeconfig.cache
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\ref\Cargo.Identity.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.sourcelink.json
