@@ -9,3 +9,4 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Domain\obj\Debug\net7.0\refint\Cargo.Domain.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Domain\obj\Debug\net7.0\Cargo.Domain.pdb
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Domain\obj\Debug\net7.0\ref\Cargo.Domain.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Domain\obj\Debug\net7.0\Cargo.Domain.sourcelink.json

@@ -1,8 +1,8 @@
 ﻿using Cargo.Application.Contracts.Identity;
+using Cargo.Application.Exceptions;
 using Cargo.Application.Models.Identity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
-using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 
 namespace Cargo.Identity.Services
@@ -19,12 +19,12 @@ namespace Cargo.Identity.Services
         }
 
         public string UserId => _contextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
-        private async Task<LoginedUser> GetUserFromIdAsync(string userId)
+        private async Task<LoginedUser> GetUserByIdAsync(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
             {
-                throw new Exception("User is not authenticated");
+                throw new NotFoundException("User is not authenticated");
             }
 
             var roles = await _userManager.GetRolesAsync(user);
@@ -37,17 +37,20 @@ namespace Cargo.Identity.Services
                 Roles = roles.ToList(),
                 Name = user.FirstName,
                 Surname = user.LastName,
+                Adress = user.Adress,
+                Number = user.PhoneNumber,
+                PinCode = user.PinCode,
             };
         }
 
         public async Task<LoginedUser> GetUserAsync(string userId)
         {
-            return await GetUserFromIdAsync(userId);
+            return await GetUserByIdAsync(userId);
         }
 
         public async Task<LoginedUser> GetCurrentUserAsync()
         {
-            return await GetUserFromIdAsync(UserId);
+            return await GetUserByIdAsync(UserId);
         }
     }
 }

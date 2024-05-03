@@ -8,6 +8,9 @@
         public string UserName { get; set; }
         public string Email { get; set; }
         public string Token { get; set; }
+        public string PinCode { get; set; }
+        public string Adress { get; set; }
+        public string Number { get; set; }
         public List<string> Roles { get; set; }
     }
 }

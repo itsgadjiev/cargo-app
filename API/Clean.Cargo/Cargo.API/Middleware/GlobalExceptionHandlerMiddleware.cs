@@ -85,9 +85,11 @@ public class GlobalExceptionHandlerMiddleware : IMiddleware
         context.Response.ContentType = MediaTypeNames.Application.Json;
         context.Response.StatusCode = (int)httpStatusCode;
 
-        if (responseMessage == string.Empty)
-            responseMessage = JsonSerializer.Serialize(new { exception.Message });
 
+        if (responseMessage == string.Empty)
+            responseMessage = GetFailedRequestMessage(context, exception);
+
+        _logger.LogCritical(responseMessage);
         return context.Response.WriteAsync(responseMessage);
     }
 

@@ -21,7 +21,10 @@ namespace Cargo.Identity.Configurations
                      UserName = "admin@localhost.com",
                      NormalizedUserName = "ADMIN@LOCALHOST.COM",
                      PasswordHash = hasher.HashPassword(null, "123"),
-                     EmailConfirmed = true
+                     EmailConfirmed = true,
+                     Adress = "Baku",
+                     PinCode = "1234567"
+
                  },
                  new ApplicationUser
                  {
@@ -33,7 +36,9 @@ namespace Cargo.Identity.Configurations
                      UserName = "user",
                      NormalizedUserName = "USER",
                      PasswordHash = hasher.HashPassword(null, "123"),
-                     EmailConfirmed = true
+                     EmailConfirmed = true,
+                     Adress = "Baku",
+                     PinCode="1234567"
                  }
             );
         }

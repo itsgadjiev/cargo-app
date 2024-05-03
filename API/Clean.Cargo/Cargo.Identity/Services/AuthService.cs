@@ -1,4 +1,5 @@
 ﻿using Cargo.Application.Contracts.Identity;
+using Cargo.Application.Contracts.Logging;
 using Cargo.Application.Exceptions;
 using Cargo.Application.Models.Identity;
 using Microsoft.AspNetCore.Identity;
@@ -14,18 +15,19 @@ namespace Cargo.Identity.Services
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-
+        private readonly IAppLogger<AuthService> _appLogger;
         private readonly JwtSettings _jwtSettings;
 
         public AuthService(UserManager<ApplicationUser> userManager,
             IOptions<JwtSettings> jwtSettings,
-            SignInManager<ApplicationUser> signInManager
+            SignInManager<ApplicationUser> signInManager,
+            IAppLogger<AuthService> appLogger
             )
         {
             _userManager = userManager;
             _jwtSettings = jwtSettings.Value;
             _signInManager = signInManager;
-
+            _appLogger = appLogger;
         }
 
         public async Task<AuthResponse> Login(AuthRequest request)
@@ -41,7 +43,7 @@ namespace Cargo.Identity.Services
 
             if (result.Succeeded == false)
             {
-                throw new NotFoundException($"Invalid username or Password.");
+                throw new NotFoundException(nameof(AuthService),$"Invalid username or Password.");
             }
 
             JwtSecurityToken jwtSecurityToken = await GenerateToken(user);
@@ -49,16 +51,22 @@ namespace Cargo.Identity.Services
             var roleName = await _userManager.GetRolesAsync(user);
             var response = new AuthResponse
             {
-                Id = user.Id,
-                Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),
-                Email = user.Email,
-                UserName = user.UserName,
-                Roles = roleName.ToList(),
-                Name = user.FirstName,
-                Surname = user.LastName,
+                LoginedUser =
+                {
+                    Id = user.Id,
+                    Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),
+                    Email = user.Email,
+                    UserName = user.UserName,
+                    Roles = roleName.ToList(),
+                    Name = user.FirstName,
+                    Surname = user.LastName,
+                    Adress = user.Adress,
+                    Number = user.PhoneNumber,
+                    PinCode = user.PinCode,
+                }
             };
 
-
+            _appLogger.LogInformation("Success login");
             return response;
         }
 
@@ -71,7 +79,7 @@ namespace Cargo.Identity.Services
                 FirstName = request.FirstName,
                 LastName = request.LastName,
                 UserName = request.UserName,
-                EmailConfirmed = true,
+                EmailConfirmed = false,
                 Id = request.Id,
             };
 
@@ -80,6 +88,7 @@ namespace Cargo.Identity.Services
             if (result.Succeeded)
             {
                 await _userManager.AddToRoleAsync(user, role);
+                _appLogger.LogInformation("Success register");
                 return new RegistrationResponse() { UserId = user.Id };
             }
             else
@@ -89,7 +98,7 @@ namespace Cargo.Identity.Services
                 {
                     str.AppendFormat("•{0}\n", err.Description);
                 }
-
+                _appLogger.LogCritical("Invalid register");
                 throw new BadRequestException($"{str}");
             }
 
@@ -129,6 +138,7 @@ namespace Cargo.Identity.Services
 
         public async Task SignOut()
         {
+            _appLogger.LogInformation("Success SignOut");
             await _signInManager.SignOutAsync();
         }
 

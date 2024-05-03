@@ -1,5 +1,7 @@
 using Cargo.API.Middleware;
+using Cargo.Application;
 using Cargo.Identity;
+using Cargo.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddIdentityServices(builder.Configuration);
+builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddApplicationServices();
 builder.Services.AddTransient<GlobalExceptionHandlerMiddleware>();
 
 

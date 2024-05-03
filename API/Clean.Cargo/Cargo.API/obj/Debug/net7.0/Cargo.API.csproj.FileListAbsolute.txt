@@ -262,7 +262,6 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Cargo.API.props
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\scopedcss\bundle\Cargo.API.styles.css
-C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\Cargo.API.csproj.CopyComplete
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\Cargo.API.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\refint\Cargo.API.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\Cargo.API.pdb
@@ -270,3 +269,4 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\ref\Cargo.API.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\Cargo.API.sourcelink.json
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\obj\Debug\net7.0\Cargo.API.csproj.Up2Date

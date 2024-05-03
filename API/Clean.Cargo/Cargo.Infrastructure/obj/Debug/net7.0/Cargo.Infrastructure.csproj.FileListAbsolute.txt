@@ -9,3 +9,8 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\refint\Cargo.Infrastructure.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\Cargo.Infrastructure.pdb
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\ref\Cargo.Infrastructure.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\bin\Debug\net7.0\Cargo.Application.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\bin\Debug\net7.0\Cargo.Application.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\Cargo.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\Cargo.Infrastructure.sourcelink.json
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\Cargo.In.7D9CDB3E.Up2Date

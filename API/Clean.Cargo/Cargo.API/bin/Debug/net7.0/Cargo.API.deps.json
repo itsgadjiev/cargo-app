@@ -2695,6 +2695,9 @@
         }
       },
       "Cargo.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Cargo.Application": "1.0.0"
+        },
         "runtime": {
           "Cargo.Infrastructure.dll": {}
         }

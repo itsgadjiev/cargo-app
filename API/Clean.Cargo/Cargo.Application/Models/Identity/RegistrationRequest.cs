@@ -26,5 +26,8 @@ namespace Cargo.Application.Models.Identity
         [Required]
         [MinLength(3)]
         public string Role { get; set; }
+        [Required]
+        [MinLength(3)]
+        public string Number { get; set; }
     }
 }

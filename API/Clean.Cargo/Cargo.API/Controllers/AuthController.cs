@@ -1,6 +1,6 @@
 ﻿using Cargo.Application.Contracts.Identity;
-using Cargo.Application.Contracts.Logging;
 using Cargo.Application.Models.Identity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cargo.API.Controllers
@@ -30,6 +30,7 @@ namespace Cargo.API.Controllers
         }
 
         [HttpPost("logOut")]
+        [Authorize]
         public async Task<IActionResult> LogOut()
         {
             await _authService.SignOut();
