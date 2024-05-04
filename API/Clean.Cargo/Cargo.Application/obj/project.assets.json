@@ -328,6 +328,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Cargo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cargo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cargo.Domain.dll": {}
+        }
       }
     }
   },
@@ -798,10 +808,16 @@
         "microsoft.extensions.primitives.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Cargo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Cargo.Domain/Cargo.Domain.csproj",
+      "msbuildProject": "../Cargo.Domain/Cargo.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Cargo.Domain >= 1.0.0",
       "FluentValidation >= 11.9.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.17",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0"
@@ -833,7 +849,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ceyhu\\OneDrive\\Рабочий стол\\cargo app\\API\\Clean.Cargo\\Cargo.Domain\\Cargo.Domain.csproj": {
+              "projectPath": "C:\\Users\\ceyhu\\OneDrive\\Рабочий стол\\cargo app\\API\\Clean.Cargo\\Cargo.Domain\\Cargo.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

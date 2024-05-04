@@ -16,3 +16,5 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\ref\Cargo.Identity.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Identity.sourcelink.json
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\obj\Debug\net7.0\Cargo.Id.02FC15F3.Up2Date
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Domain.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Identity\bin\Debug\net7.0\Cargo.Domain.pdb

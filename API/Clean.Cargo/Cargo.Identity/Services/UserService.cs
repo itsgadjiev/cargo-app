@@ -19,12 +19,12 @@ namespace Cargo.Identity.Services
         }
 
         public string UserId => _contextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.NameIdentifier);
-        private async Task<LoginedUser> GetUserByIdAsync(string userId)
+        public async Task<LoginedUser> GetUserByIdAsync(string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
             if (user == null)
             {
-                throw new NotFoundException("User is not authenticated");
+                throw new BadRequestException(nameof(UserService),"User is not authenticated");
             }
 
             var roles = await _userManager.GetRolesAsync(user);
@@ -40,12 +40,8 @@ namespace Cargo.Identity.Services
                 Adress = user.Adress,
                 Number = user.PhoneNumber,
                 PinCode = user.PinCode,
+               
             };
-        }
-
-        public async Task<LoginedUser> GetUserAsync(string userId)
-        {
-            return await GetUserByIdAsync(userId);
         }
 
         public async Task<LoginedUser> GetCurrentUserAsync()

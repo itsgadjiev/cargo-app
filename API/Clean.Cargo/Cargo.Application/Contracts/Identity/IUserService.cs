@@ -4,7 +4,7 @@ namespace Cargo.Application.Contracts.Identity
 {
     public interface IUserService
     {
-        Task<LoginedUser> GetUserAsync(string userId);
+        Task<LoginedUser> GetUserByIdAsync(string userId);
         public string UserId { get; }
         Task<LoginedUser> GetCurrentUserAsync();
     }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Cargo.Domain;
+using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations;
 
 namespace Cargo.Application.Models.Identity
@@ -13,6 +14,8 @@ namespace Cargo.Application.Models.Identity
         public string PinCode { get; set; }
         [MaxLength(100)]
         public string Adress { get; set; }
+        public Filial Filial { get; set; }
+        public Guid FilialId { get; set; }
     }
 }
 

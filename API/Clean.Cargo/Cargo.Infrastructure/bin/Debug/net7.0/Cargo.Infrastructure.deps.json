@@ -215,12 +215,18 @@
       },
       "Cargo.Application/1.0.0": {
         "dependencies": {
+          "Cargo.Domain": "1.0.0",
           "FluentValidation": "11.9.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.17",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
           "Cargo.Application.dll": {}
+        }
+      },
+      "Cargo.Domain/1.0.0": {
+        "runtime": {
+          "Cargo.Domain.dll": {}
         }
       }
     }
@@ -365,6 +371,11 @@
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
     },
     "Cargo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cargo.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

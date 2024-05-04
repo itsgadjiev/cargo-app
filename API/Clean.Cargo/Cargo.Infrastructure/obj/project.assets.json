@@ -333,6 +333,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Cargo.Domain": "1.0.0",
           "FluentValidation": "11.9.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.17",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
@@ -342,6 +343,16 @@
         },
         "runtime": {
           "bin/placeholder/Cargo.Application.dll": {}
+        }
+      },
+      "Cargo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Cargo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cargo.Domain.dll": {}
         }
       }
     }
@@ -818,6 +829,11 @@
       "type": "project",
       "path": "../Cargo.Application/Cargo.Application.csproj",
       "msbuildProject": "../Cargo.Application/Cargo.Application.csproj"
+    },
+    "Cargo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Cargo.Domain/Cargo.Domain.csproj",
+      "msbuildProject": "../Cargo.Domain/Cargo.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

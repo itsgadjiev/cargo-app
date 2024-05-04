@@ -14,3 +14,5 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\Cargo.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\Cargo.Infrastructure.sourcelink.json
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\obj\Debug\net7.0\Cargo.In.7D9CDB3E.Up2Date
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\bin\Debug\net7.0\Cargo.Domain.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Infrastructure\bin\Debug\net7.0\Cargo.Domain.pdb

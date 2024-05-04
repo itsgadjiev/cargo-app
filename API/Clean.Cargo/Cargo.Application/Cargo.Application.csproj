@@ -12,4 +12,12 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cargo.Domain\Cargo.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

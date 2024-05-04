@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F27E04F8-EB0D-4F53-A03E-6C4D66F26DF4}|Cargo.Identity\\Cargo.Identity.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.identity\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27E04F8-EB0D-4F53-A03E-6C4D66F26DF4}|Cargo.Identity\\Cargo.Identity.csproj|solutionrelative:cargo.identity\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|solutionrelative:cargo.application\\applicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.application\\models\\identity\\logineduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|solutionrelative:cargo.application\\models\\identity\\logineduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F27E04F8-EB0D-4F53-A03E-6C4D66F26DF4}|Cargo.Identity\\Cargo.Identity.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.identity\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F27E04F8-EB0D-4F53-A03E-6C4D66F26DF4}|Cargo.Identity\\Cargo.Identity.csproj|solutionrelative:cargo.identity\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.application\\models\\identity\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|solutionrelative:cargo.application\\models\\identity\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56343197-F9E5-49AA-AF99-C84230AE75EE}|Cargo.Persistence\\Cargo.Persistence.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.persistence\\configurations\\filialconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56343197-F9E5-49AA-AF99-C84230AE75EE}|Cargo.Persistence\\Cargo.Persistence.csproj|solutionrelative:cargo.persistence\\configurations\\filialconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45786AC1-08FD-42EC-9B72-211F326F160E}|Cargo.API\\Cargo.API.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45786AC1-08FD-42EC-9B72-211F326F160E}|Cargo.API\\Cargo.API.csproj|solutionrelative:cargo.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.application\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6372624-52AC-4305-A3DA-AD468CC0AF5B}|Cargo.Application\\Cargo.Application.csproj|solutionrelative:cargo.application\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45786AC1-08FD-42EC-9B72-211F326F160E}|Cargo.API\\Cargo.API.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.api\\middleware\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45786AC1-08FD-42EC-9B72-211F326F160E}|Cargo.API\\Cargo.API.csproj|solutionrelative:cargo.api\\middleware\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56343197-F9E5-49AA-AF99-C84230AE75EE}|Cargo.Persistence\\Cargo.Persistence.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56343197-F9E5-49AA-AF99-C84230AE75EE}|Cargo.Persistence\\Cargo.Persistence.csproj|solutionrelative:cargo.persistence\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F27E04F8-EB0D-4F53-A03E-6C4D66F26DF4}|Cargo.Identity\\Cargo.Identity.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F27E04F8-EB0D-4F53-A03E-6C4D66F26DF4}|Cargo.Identity\\Cargo.Identity.csproj|solutionrelative:cargo.identity\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45786AC1-08FD-42EC-9B72-211F326F160E}|Cargo.API\\Cargo.API.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45786AC1-08FD-42EC-9B72-211F326F160E}|Cargo.API\\Cargo.API.csproj|solutionrelative:cargo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40CB8D20-0CBF-40ED-A4F5-6B1B695EF529}|Cargo.Domain\\Cargo.Domain.csproj|c:\\users\\ceyhu\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\api\\clean.cargo\\cargo.domain\\filial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40CB8D20-0CBF-40ED-A4F5-6B1B695EF529}|Cargo.Domain\\Cargo.Domain.csproj|solutionrelative:cargo.domain\\filial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +34,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Filial.cs",
+              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Domain\\Filial.cs",
+              "RelativeDocumentMoniker": "Cargo.Domain\\Filial.cs",
+              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Domain\\Filial.cs",
+              "RelativeToolTip": "Cargo.Domain\\Filial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T12:48:59.228Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Persistence\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Cargo.Persistence\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Persistence\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Cargo.Persistence\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:53:35.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Cargo.Application\\Models\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "Cargo.Application\\Models\\Identity\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:53:23.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FilialConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Persistence\\Configurations\\FilialConfiguration.cs",
+              "RelativeDocumentMoniker": "Cargo.Persistence\\Configurations\\FilialConfiguration.cs",
+              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Persistence\\Configurations\\FilialConfiguration.cs",
+              "RelativeToolTip": "Cargo.Persistence\\Configurations\\FilialConfiguration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwB4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:45:32.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Identity\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Cargo.Identity\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Identity\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "Cargo.Identity\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:44:34.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\ApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Cargo.Application\\ApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\ApplicationServiceRegistration.cs",
+              "RelativeToolTip": "Cargo.Application\\ApplicationServiceRegistration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:44:31.999Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
@@ -51,97 +126,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Program.cs",
-              "RelativeDocumentMoniker": "Cargo.API\\Program.cs",
-              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Program.cs",
-              "RelativeToolTip": "Cargo.API\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:39:51.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GlobalExceptionHandlerMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
-              "RelativeDocumentMoniker": "Cargo.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
-              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
-              "RelativeToolTip": "Cargo.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAiwIAAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:39:31.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Cargo.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Cargo.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:33:58.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthResponse.cs",
-              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\Models\\Identity\\AuthResponse.cs",
-              "RelativeDocumentMoniker": "Cargo.Application\\Models\\Identity\\AuthResponse.cs",
-              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\Models\\Identity\\AuthResponse.cs",
-              "RelativeToolTip": "Cargo.Application\\Models\\Identity\\AuthResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:31:14.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginedUser.cs",
-              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\Models\\Identity\\LoginedUser.cs",
-              "RelativeDocumentMoniker": "Cargo.Application\\Models\\Identity\\LoginedUser.cs",
-              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Application\\Models\\Identity\\LoginedUser.cs",
-              "RelativeToolTip": "Cargo.Application\\Models\\Identity\\LoginedUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:26:46.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Identity\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Cargo.Identity\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Identity\\Services\\UserService.cs",
-              "RelativeToolTip": "Cargo.Identity\\Services\\UserService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T21:25:41.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Identity\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Cargo.Identity\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\ceyhu\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cargo app\\API\\Clean.Cargo\\Cargo.Identity\\Services\\AuthService.cs",
-              "RelativeToolTip": "Cargo.Identity\\Services\\AuthService.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAqwC0AAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T16:12:08.796Z",
-              "EditorCaption": ""
             }
           ]
         }

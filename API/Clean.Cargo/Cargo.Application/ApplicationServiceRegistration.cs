@@ -1,5 +1,4 @@
-﻿using Cargo.Application.Contracts.Logging;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace Cargo.Application;
 

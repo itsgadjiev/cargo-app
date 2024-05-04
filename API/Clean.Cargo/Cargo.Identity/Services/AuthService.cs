@@ -36,14 +36,14 @@ namespace Cargo.Identity.Services
 
             if (user is null)
             {
-                throw new NotFoundException($"Invalid username or Password.");
+                throw new NotFoundException(nameof(AuthService), $"Invalid username or Password.");
             }
 
             var result = await _signInManager.PasswordSignInAsync(user, request.Password, false, false);
 
             if (result.Succeeded == false)
             {
-                throw new NotFoundException(nameof(AuthService),$"Invalid username or Password.");
+                throw new NotFoundException(nameof(AuthService), $"Invalid username or Password.");
             }
 
             JwtSecurityToken jwtSecurityToken = await GenerateToken(user);
@@ -51,7 +51,7 @@ namespace Cargo.Identity.Services
             var roleName = await _userManager.GetRolesAsync(user);
             var response = new AuthResponse
             {
-                LoginedUser =
+                LoginedUser = new LoginedUser
                 {
                     Id = user.Id,
                     Token = new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),

@@ -1,5 +1,6 @@
 ﻿using Cargo.Application.Exceptions;
 using FluentValidation;
+using NuGet.Protocol;
 using System.Net;
 using System.Net.Mime;
 using System.Security.Claims;
@@ -64,7 +65,7 @@ public class GlobalExceptionHandlerMiddleware : IMiddleware
 
     }
 
-    private Task HandleCustomExceptionsAsync(HttpContext context, Exception exception)
+    private Task HandleCustomExceptionsAsync(HttpContext context, ApplicationException exception)
     {
         var httpStatusCode = HttpStatusCode.InternalServerError;
         var responseMessage = string.Empty;
@@ -85,7 +86,7 @@ public class GlobalExceptionHandlerMiddleware : IMiddleware
         context.Response.ContentType = MediaTypeNames.Application.Json;
         context.Response.StatusCode = (int)httpStatusCode;
 
-
+        
         if (responseMessage == string.Empty)
             responseMessage = GetFailedRequestMessage(context, exception);
 
@@ -127,7 +128,7 @@ public class GlobalExceptionHandlerMiddleware : IMiddleware
         messageBuilder.AppendLine($"\tPath: {context.Request?.Path}");
         messageBuilder.AppendLine($"\tQueryString: {context.Request?.QueryString}");
         messageBuilder.AppendLine($"\tErrorMessage: {exception.Message}");
-        messageBuilder.AppendLine("\tStacktrace:");
+        messageBuilder.AppendLine($"\tStacktrace:");
 
         if (exception.StackTrace != null)
         {
