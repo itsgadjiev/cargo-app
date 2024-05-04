@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Gl6Pn4hjMuH23R9L4XYCM4JdTVeC8VeC/s8ELAq4g2YdieckbdqPQ9kWuv6UbBM41jC5HFyiCNSNkHsubZXUxA==",
+  "dgSpecHash": "nk3v7vMlpxIwhkbYh6ori4jmvKBJeqMUaOgKp83yi3v5EjsHX6IvXrcLj7a9/DmiMMPkVi/k56IBdaWBzDNt+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ceyhu\\OneDrive\\Рабочий стол\\cargo app\\API\\Clean.Cargo\\Cargo.API\\Cargo.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ceyhu\\.nuget\\packages\\asp.versioning.abstractions\\7.0.0\\asp.versioning.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\asp.versioning.http\\7.1.0\\asp.versioning.http.7.1.0.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\asp.versioning.mvc\\7.1.0\\asp.versioning.mvc.7.1.0.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\7.1.0\\asp.versioning.mvc.apiexplorer.7.1.0.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",

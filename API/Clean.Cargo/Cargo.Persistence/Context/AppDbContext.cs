@@ -6,7 +6,7 @@ namespace Cargo.Persistence.Context
 {
     public class AppDbContext : DbContext
     {
-        public List<Filial> Filials { get; set; }
+        public List<Branch> Filials { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

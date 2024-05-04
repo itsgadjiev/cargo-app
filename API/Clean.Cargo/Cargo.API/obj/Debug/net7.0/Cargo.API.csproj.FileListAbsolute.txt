@@ -281,3 +281,7 @@ C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\Serilog.Sinks.File.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\Cargo.Domain.dll
 C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\Cargo.Domain.pdb
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\Asp.Versioning.Abstractions.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\Asp.Versioning.Http.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\Asp.Versioning.Mvc.dll
+C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\bin\Debug\net7.0\Asp.Versioning.Mvc.ApiExplorer.dll

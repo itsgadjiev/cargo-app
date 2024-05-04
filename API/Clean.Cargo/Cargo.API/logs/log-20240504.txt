@@ -1,0 +1,60 @@
+2024-05-04 22:06:06.523 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-04 22:06:06.550 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-04 22:06:06.552 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 22:06:06.553 +04:00 [INF] Hosting environment: Development
+2024-05-04 22:06:06.554 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-04 22:06:06.959 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Cargo.API.Middleware.GlobalExceptionHandlerMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-04 22:06:07.129 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'Cargo.API.Middleware.GlobalExceptionHandlerMiddleware' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-04 22:08:58.816 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-04 22:08:58.839 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-04 22:08:58.842 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 22:08:58.842 +04:00 [INF] Hosting environment: Development
+2024-05-04 22:08:58.843 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-04 22:14:38.273 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-04 22:14:38.296 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-04 22:14:38.298 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 22:14:38.300 +04:00 [INF] Hosting environment: Development
+2024-05-04 22:14:38.301 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-04 22:15:33.634 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-04 22:15:33.658 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-04 22:15:33.660 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 22:15:33.661 +04:00 [INF] Hosting environment: Development
+2024-05-04 22:15:33.663 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-04 22:15:34.163 +04:00 [FTL] 
+2024-05-04 22:15:57.887 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-04 22:15:57.910 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-04 22:15:57.912 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 22:15:57.913 +04:00 [INF] Hosting environment: Development
+2024-05-04 22:15:57.914 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-04 22:18:43.061 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-04 22:18:43.081 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-04 22:18:43.083 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 22:18:43.084 +04:00 [INF] Hosting environment: Development
+2024-05-04 22:18:43.086 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-04 22:18:49.416 +04:00 [INF] HTTP GET /api/v1/Branch responded 200 in 12.3624 ms
+2024-05-04 22:18:55.002 +04:00 [INF] HTTP GET /api/v2/Branch responded 400 in 0.6185 ms
+2024-05-04 22:19:04.704 +04:00 [INF] HTTP GET /api/v2/Branch responded 400 in 0.3232 ms
+2024-05-04 22:19:08.663 +04:00 [INF] HTTP GET /api/v1/Branch responded 200 in 0.7723 ms
+2024-05-04 22:19:11.876 +04:00 [INF] HTTP GET /api/v2/Branch responded 400 in 0.0265 ms
+2024-05-04 22:19:48.693 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-04 22:19:48.717 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-04 22:19:48.720 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 22:19:48.721 +04:00 [INF] Hosting environment: Development
+2024-05-04 22:19:48.722 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-04 22:19:57.777 +04:00 [INF] HTTP GET /api/v2/Branch responded 400 in 2.5263 ms
+2024-05-04 22:20:15.070 +04:00 [INF] HTTP GET /api/v2/Branch responded 400 in 0.1817 ms
+2024-05-04 22:20:26.453 +04:00 [INF] HTTP GET /api/v234/Branch responded 400 in 0.0349 ms

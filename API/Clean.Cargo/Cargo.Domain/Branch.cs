@@ -2,7 +2,7 @@
 
 namespace Cargo.Domain;
 
-public record Filial : BaseEntity
+public record Branch : BaseEntity
 {
     public string Name { get; set; }
     public string Address { get; set; }

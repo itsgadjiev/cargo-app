@@ -3,7 +3,7 @@ using Cargo.Application.Models.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Cargo.API.Controllers
+namespace Cargo.API.Controllers.v1
 {
     [Route("api/[controller]")]
     [ApiController]

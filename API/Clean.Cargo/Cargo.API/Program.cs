@@ -1,3 +1,4 @@
+using Asp.Versioning;
 using Cargo.API.Middleware;
 using Cargo.Application;
 using Cargo.Identity;
@@ -11,13 +12,34 @@ builder.Host.UseSerilog((context, loggerConfig) =>
     loggerConfig
         .WriteTo.Console()
         .ReadFrom.Configuration(context.Configuration);
-}); 
+});
+
+builder.Services.AddApiVersioning(options =>
+{
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true;
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        //new QueryStringApiVersionReader("api-version"),
+        new HeaderApiVersionReader("x-version")
+        //new MediaTypeApiVersionReader("ver")
+        );
+})
+.AddMvc()
+.AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.FormatGroupName = (group, version) => $"{group} - {version}";
+    options.SubstituteApiVersionInUrl = true;
+});
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddIdentityServices(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddApplicationServices();
+builder.Services.AddTransient<GlobalExceptionHandlerMiddleware>();
 
 var app = builder.Build();
 app.UseMiddleware<GlobalExceptionHandlerMiddleware>();

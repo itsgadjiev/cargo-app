@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace Cargo.Persistence.Configurations
 {
-    public class FilialConfiguration : IEntityTypeConfiguration<Filial>
+    public class FilialConfiguration : IEntityTypeConfiguration<Branch>
     {
-        public void Configure(EntityTypeBuilder<Filial> builder)
+        public void Configure(EntityTypeBuilder<Branch> builder)
         {
             Guid filial1Id = Guid.Parse("00000000-0000-0000-0000-000000000001");
             Guid filial2Id = Guid.Parse("00000000-0000-0000-0000-000000000002");
 
             builder.HasData(
-                new Filial
+                new Branch
                 {
                     Id = filial1Id,
                     Name = "Filial 1",
@@ -25,7 +25,7 @@ namespace Cargo.Persistence.Configurations
                     CreatedAt = DateTime.Now,
                     UpdatedAt = DateTime.Now,
                 },
-                new Filial
+                new Branch
                 {
                     Id = filial2Id,
                     Name = "Filial 2",
