@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5TVev8yI/7AwT6nLPCuIagHMnC9nFoNoT8aMv5Fn26itL5QqxecAfpJDSk7Gb+K0zAtxXftUbVpeRRnf5iyIHQ==",
+  "dgSpecHash": "91eTx363fn+7knoqOv5oo2L8V4WFy0cjVWRzCOlvr4Xgs1y4moxaTLaw4ux2qvFF0F5GANk3XotP5REeidvOWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ceyhu\\OneDrive\\Рабочий стол\\cargo app\\API\\Clean.Cargo\\Cargo.Persistence\\Cargo.Persistence.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\ceyhu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.17\\microsoft.aspnetcore.cryptography.internal.7.0.17.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.17\\microsoft.aspnetcore.cryptography.keyderivation.7.0.17.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.17\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.17.nupkg.sha512",

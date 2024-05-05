@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OINib7Snr4Mlg0Rr/JTGtoZ0RVaO98wqsJQLfujDGfCfyO59/SArD2dnsNUn46jobadjF6Ku+C3mbh047sZ5Qg==",
+  "dgSpecHash": "B3pIdDYLroNfFY4+r7PKWZ+w9E/7LSDz5YL7O9rZ9BicnVU4XVhDD0Q5OSFydXbosPe2KJmU2MnjFAjJPE8bIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ceyhu\\OneDrive\\Рабочий стол\\cargo app\\API\\Clean.Cargo\\Cargo.Infrastructure\\Cargo.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ceyhu\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\ceyhu\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.17\\microsoft.aspnetcore.cryptography.internal.7.0.17.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.17\\microsoft.aspnetcore.cryptography.keyderivation.7.0.17.nupkg.sha512",
     "C:\\Users\\ceyhu\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.17\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.17.nupkg.sha512",

@@ -1,11 +1,13 @@
-﻿using Cargo.Application.Contracts.Identity;
+﻿using Asp.Versioning;
+using Cargo.Application.Contracts.Identity;
 using Cargo.Application.Models.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cargo.API.Controllers.v1
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1.0")]
     [ApiController]
     public class AuthController : ControllerBase
     {

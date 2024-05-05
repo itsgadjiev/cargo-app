@@ -1,0 +1,20 @@
+2024-05-05 01:21:46.044 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-05 01:21:46.066 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-05 01:21:46.068 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 01:21:46.070 +04:00 [INF] Hosting environment: Development
+2024-05-05 01:21:46.071 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-05 20:21:36.429 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-05 20:21:36.454 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-05 20:21:36.456 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 20:21:36.457 +04:00 [INF] Hosting environment: Development
+2024-05-05 20:21:36.458 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-05 20:22:07.916 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-05 20:22:07.938 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-05 20:22:07.940 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 20:22:07.941 +04:00 [INF] Hosting environment: Development
+2024-05-05 20:22:07.942 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-05 20:25:07.216 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-05 20:25:07.237 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-05 20:25:07.239 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-05 20:25:07.240 +04:00 [INF] Hosting environment: Development
+2024-05-05 20:25:07.241 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
