@@ -41,7 +41,7 @@ namespace Cargo.Persistence.Repositories
         {
             return await _context.Set<T>()
                 .AsNoTracking()
-                .FirstAsync(x => x.Id == id);
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task UpdateAsync(T entity)

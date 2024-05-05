@@ -1,4 +1,4 @@
-﻿namespace Cargo.Application.Features.Branch.Queries.GetBranch
+﻿namespace Cargo.Application.Features.Branch.Queries.GetBranchById
 {
     public class GetBranchByIdDTO
     {

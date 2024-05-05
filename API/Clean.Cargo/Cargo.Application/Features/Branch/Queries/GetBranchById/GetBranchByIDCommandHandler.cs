@@ -2,7 +2,7 @@
 using Cargo.Application.Exceptions;
 using MediatR;
 
-namespace Cargo.Application.Features.Branch.Queries.GetBranch
+namespace Cargo.Application.Features.Branch.Queries.GetBranchById
 {
     public class GetBranchByIDCommandHandler : IRequestHandler<GetBranchByIDCommand, GetBranchByIdDTO>
     {

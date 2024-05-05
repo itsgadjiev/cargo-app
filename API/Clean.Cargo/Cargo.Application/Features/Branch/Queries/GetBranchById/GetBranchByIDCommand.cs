@@ -1,8 +1,8 @@
 ﻿using MediatR;
 
-namespace Cargo.Application.Features.Branch.Queries.GetBranch
+namespace Cargo.Application.Features.Branch.Queries.GetBranchById
 {
-    public class GetBranchByIDCommand :IRequest<GetBranchByIdDTO>
+    public class GetBranchByIDCommand : IRequest<GetBranchByIdDTO>
     {
         public GetBranchByIDCommand(Guid ıd)
         {

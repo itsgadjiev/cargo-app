@@ -2,7 +2,7 @@
 
 namespace Cargo.Application.Features.Branch.Queries.GetBranches
 {
-    public class GetBranchesCommand : IRequest<List<BranchListDto>>
+    public class GetBranchesQuery : IRequest<List<BranchListDto>>
     {
     }
 }

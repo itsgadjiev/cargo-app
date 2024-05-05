@@ -1,12 +1,29 @@
 ﻿using Cargo.Domain;
 using Cargo.Domain.Base;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using System.Numerics;
+using System.Reflection.Metadata;
 
 namespace Cargo.Persistence.Context
 {
     public class AppDbContext : DbContext
     {
+        public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : base(dbContextOptions) 
+        {
+            
+        }
+        public AppDbContext()
+        {
+            
+        }
         public List<Branch> Filials { get; init; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
+            base.OnModelCreating(modelBuilder);
+        }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

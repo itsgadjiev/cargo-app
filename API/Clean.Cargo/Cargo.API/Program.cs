@@ -3,6 +3,7 @@ using Cargo.API.Middleware;
 using Cargo.Application;
 using Cargo.Identity;
 using Cargo.Infrastructure;
+using Cargo.Persistence;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,9 +21,8 @@ builder.Services.AddApiVersioning(options =>
     options.DefaultApiVersion = new ApiVersion(1, 0);
     options.ReportApiVersions = true;
     options.ApiVersionReader = ApiVersionReader.Combine(
-        //new QueryStringApiVersionReader("api-version"),
-        new HeaderApiVersionReader("x-version")
-        //new MediaTypeApiVersionReader("ver")
+        new HeaderApiVersionReader("x-version"),
+         new QueryStringApiVersionReader("version")
         );
 })
 .AddMvc()
@@ -39,6 +39,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddIdentityServices(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddApplicationServices();
+builder.Services.AddPersistenceServices(builder.Configuration);
 builder.Services.AddTransient<GlobalExceptionHandlerMiddleware>();
 
 var app = builder.Build();

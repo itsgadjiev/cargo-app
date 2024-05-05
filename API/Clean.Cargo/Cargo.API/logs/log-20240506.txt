@@ -1,0 +1,55 @@
+2024-05-06 01:28:48.461 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 01:28:48.485 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 01:28:48.487 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 01:28:48.487 +04:00 [INF] Hosting environment: Development
+2024-05-06 01:28:48.488 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 01:29:00.330 +04:00 [ERR] HTTP PUT /api/v1/Branch/update responded 500 in 812.7315 ms
+Cargo.Application.Exceptions.NotFoundException: branch not found
+   at Cargo.Application.Features.Branch.Commands.UpdateBranch.UpdateBranchCommandHandler.Handle(UpdateBranchCommand request, CancellationToken cancellationToken) in C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\Features\Branch\Commands\UpdateBranch\UpdateBranchCommandHandler.cs:line 20
+   at Cargo.API.Controllers.v1.BranchController.Update(UpdateBranchCommand updateBranchCommand) in C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\Controllers\v1\BranchController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-05-06 01:29:00.348 +04:00 [FTL] Failed Request
+	Schema: https
+	Host: localhost:7233
+	User: anonymous
+	Method: PUT
+	Path: /api/v1/Branch/update
+	QueryString: 
+	ErrorMessage: branch not found
+	Stacktrace:
+   at Cargo.Application.Features.Branch.Commands.UpdateBranch.UpdateBranchCommandHandler.Handle(UpdateBranchCommand request, CancellationToken cancellationToken) in C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.Application\Features\Branch\Commands\UpdateBranch\UpdateBranchCommandHandler.cs:line 20
+   at Cargo.API.Controllers.v1.BranchController.Update(UpdateBranchCommand updateBranchCommand) in C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\Controllers\v1\BranchController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Cargo.API.Middleware.GlobalExceptionHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API\Middleware\GlobalExceptionHandlerMiddleware.cs:line 30
+
+2024-05-06 01:36:35.325 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 01:36:35.351 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 01:36:35.353 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 01:36:35.353 +04:00 [INF] Hosting environment: Development
+2024-05-06 01:36:35.354 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 01:36:54.857 +04:00 [INF] HTTP DELETE /api/v1/Branch/delete responded 204 in 952.8442 ms
+2024-05-06 01:37:11.490 +04:00 [INF] HTTP GET /api/v1/Branch responded 200 in 67.8368 ms

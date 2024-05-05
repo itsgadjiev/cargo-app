@@ -3,16 +3,16 @@ using MediatR;
 
 namespace Cargo.Application.Features.Branch.Queries.GetBranches
 {
-    public class GetBranchesCommandHandler : IRequestHandler<GetBranchesCommand, List<BranchListDto>>
+    public class GetBranchesQueryHandler : IRequestHandler<GetBranchesQuery, List<BranchListDto>>
     {
         private readonly IBranchRepository _branchRepository;
 
-        public GetBranchesCommandHandler(IBranchRepository branchRepository)
+        public GetBranchesQueryHandler(IBranchRepository branchRepository)
         {
             _branchRepository = branchRepository;
         }
 
-        public async Task<List<BranchListDto>> Handle(GetBranchesCommand request, CancellationToken cancellationToken)
+        public async Task<List<BranchListDto>> Handle(GetBranchesQuery request, CancellationToken cancellationToken)
         {
             var list = await _branchRepository.GetAllAsync();
             var dtoList = list.Select(x => new BranchListDto
