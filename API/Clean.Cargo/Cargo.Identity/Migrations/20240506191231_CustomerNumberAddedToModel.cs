@@ -8,11 +8,19 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Cargo.Identity.Migrations
 {
     /// <inheritdoc />
-    public partial class identity_init : Migration
+    public partial class CustomerNumberAddedToModel : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.EnsureSchema(
+                name: "dbo");
+
+            migrationBuilder.CreateSequence<int>(
+                name: "CustomerNumberSequence",
+                schema: "dbo",
+                startValue: 10000L);
+
             migrationBuilder.CreateTable(
                 name: "AspNetRoles",
                 columns: table => new
@@ -32,8 +40,12 @@ namespace Cargo.Identity.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FirstName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    LastName = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    PinCode = table.Column<string>(type: "nvarchar(7)", maxLength: 7, nullable: true),
+                    Adress = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: true),
+                    BranchId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    CustomerNumber = table.Column<int>(type: "int", nullable: false, defaultValueSql: "NEXT VALUE FOR dbo.CustomerNumberSequence"),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -175,11 +187,11 @@ namespace Cargo.Identity.Migrations
 
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
-                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                columns: new[] { "Id", "AccessFailedCount", "Adress", "BranchId", "ConcurrencyStamp", "Email", "EmailConfirmed", "FirstName", "LastName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "PinCode", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "8e445865-a24d-4543-a6c6-9443d048cdb9", 0, "9732e51f-870c-46ea-8676-162756acaa25", "admin@localhost.com", true, "System", "Admin", false, null, "ADMIN@LOCALHOST.COM", "ADMIN@LOCALHOST.COM", "AQAAAAIAAYagAAAAEAiNian/zW7wRv8wL3/rDrFyj23MlvH3EYowX6zWI7yPqnHhZc14ku5Fvc+YQwBVkA==", null, false, "53471e8e-bfe2-4df7-844f-29dab1c3b54e", false, "admin@localhost.com" },
-                    { "9e224968-33e4-4652-b7b7-8574d048cdb9", 0, "1f116711-85fe-4995-a1f9-c6982bef5403", "user@localhost.com", true, "System", "User", false, null, "USER@LOCALHOST.COM", "USER", "AQAAAAIAAYagAAAAEJAWaRfAPXVDpN5PzhPgQ4y6UobgbY6mkEiSF16K7fFr4jDJHgwgtw3ElGpQDmL1ug==", null, false, "b81858d0-1f20-4110-9d8b-d1864916ed03", false, "user" }
+                    { "8e445865-a24d-4543-a6c6-9443d048cdb9", 0, "Baku", new Guid("00000000-0000-0000-0000-000000000001"), "a5f009be-e195-4937-a2bd-c5d0ffe8cc62", "admin@localhost.com", true, "System", "Admin", false, null, "ADMIN@LOCALHOST.COM", "ADMIN@LOCALHOST.COM", "AQAAAAIAAYagAAAAEOGQA5QFF4QnTAmJh7GLc0d2pagADiMxlF2F1dSDV/ZEIqM07AefuopNTaO13uMA6Q==", null, false, "1234567", "e55b1856-7726-42fd-b167-ab9e7c2e1c19", false, "admin@localhost.com" },
+                    { "9e224968-33e4-4652-b7b7-8574d048cdb9", 0, "Baku", new Guid("00000000-0000-0000-0000-000000000002"), "52d5957b-c14d-40b0-9292-8d9310a615d8", "user@localhost.com", true, "System", "User", false, null, "USER@LOCALHOST.COM", "USER", "AQAAAAIAAYagAAAAEBorB+UOqdmH5ZhC4koiuy3kRlbT/M34LPjztm7kYUOFQkvgLQdPcTrY63nRKiyqqA==", null, false, "1234567", "299503ec-f9ae-42e0-8eb5-ef89b7dcc8cf", false, "user" }
                 });
 
             migrationBuilder.InsertData(
@@ -254,6 +266,10 @@ namespace Cargo.Identity.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropSequence(
+                name: "CustomerNumberSequence",
+                schema: "dbo");
         }
     }
 }

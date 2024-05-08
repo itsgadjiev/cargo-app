@@ -1,0 +1,17 @@
+2024-05-06 21:22:46.634 +04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [AspNetUsers] ADD CONSTRAINT [FK_AspNetUsers_Branch_FilialId] FOREIGN KEY ([FilialId]) REFERENCES [Branch] ([Id]) ON DELETE CASCADE;
+2024-05-06 21:22:50.077 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:22:50.100 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:22:50.102 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:22:50.103 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:22:50.106 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:23:00.899 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:23:00.921 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:23:00.924 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:23:00.924 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:23:00.925 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:23:06.256 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:23:06.277 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:23:06.278 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:23:06.279 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:23:06.280 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API

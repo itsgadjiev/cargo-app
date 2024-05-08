@@ -40,31 +40,26 @@ namespace Cargo.Persistence.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("UpdatedBy")
-                        .HasColumnType("uniqueidentifier");
-
                     b.HasKey("Id");
 
-                    b.ToTable("Branch");
+                    b.ToTable("Branches");
 
                     b.HasData(
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000001"),
                             Address = "Address 1",
-                            CreatedAt = new DateTime(2024, 5, 6, 0, 35, 37, 747, DateTimeKind.Local).AddTicks(3898),
+                            CreatedAt = new DateTime(2024, 5, 6, 22, 37, 6, 103, DateTimeKind.Local).AddTicks(5680),
                             Name = "Filial 1",
-                            UpdatedAt = new DateTime(2024, 5, 6, 0, 35, 37, 747, DateTimeKind.Local).AddTicks(3912),
-                            UpdatedBy = new Guid("00000000-0000-0000-0000-000000000000")
+                            UpdatedAt = new DateTime(2024, 5, 6, 22, 37, 6, 103, DateTimeKind.Local).AddTicks(5689)
                         },
                         new
                         {
                             Id = new Guid("00000000-0000-0000-0000-000000000002"),
                             Address = "Address 2",
-                            CreatedAt = new DateTime(2024, 5, 6, 0, 35, 37, 747, DateTimeKind.Local).AddTicks(3915),
+                            CreatedAt = new DateTime(2024, 5, 6, 22, 37, 6, 103, DateTimeKind.Local).AddTicks(5691),
                             Name = "Filial 2",
-                            UpdatedAt = new DateTime(2024, 5, 6, 0, 35, 37, 747, DateTimeKind.Local).AddTicks(3915),
-                            UpdatedBy = new Guid("00000000-0000-0000-0000-000000000000")
+                            UpdatedAt = new DateTime(2024, 5, 6, 22, 37, 6, 103, DateTimeKind.Local).AddTicks(5691)
                         });
                 });
 #pragma warning restore 612, 618

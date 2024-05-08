@@ -1,0 +1,23 @@
+2024-05-06 21:29:13.364 +04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-05-06 21:31:51.630 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:31:51.655 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:31:51.658 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:31:51.660 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:31:51.660 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:50:43.082 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:50:43.104 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:50:43.105 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:50:43.106 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:50:43.106 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:50:49.307 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:50:49.329 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:50:49.330 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:50:49.331 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:50:49.332 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API

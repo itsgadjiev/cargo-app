@@ -17,10 +17,13 @@ namespace Cargo.Identity.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.17")
+                .HasAnnotation("ProductVersion", "7.0.18")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.HasSequence<int>("CustomerNumberSequence", "dbo")
+                .StartsAt(10000L);
 
             modelBuilder.Entity("Cargo.Application.Models.Identity.ApplicationUser", b =>
                 {
@@ -31,12 +34,20 @@ namespace Cargo.Identity.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Adress")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<Guid>("BranchId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CustomerNumber")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValueSql("NEXT VALUE FOR dbo.CustomerNumberSequence");
 
                     b.Property<string>("Email")
                         .HasMaxLength(256)
@@ -46,12 +57,12 @@ namespace Cargo.Identity.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
@@ -77,8 +88,8 @@ namespace Cargo.Identity.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("PinCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(7)
+                        .HasColumnType("nvarchar(7)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -108,7 +119,9 @@ namespace Cargo.Identity.Migrations
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
                             Adress = "Baku",
-                            ConcurrencyStamp = "93271d3d-8577-436f-88f2-fd37c4eff8b2",
+                            BranchId = new Guid("00000000-0000-0000-0000-000000000001"),
+                            ConcurrencyStamp = "a5f009be-e195-4937-a2bd-c5d0ffe8cc62",
+                            CustomerNumber = 0,
                             Email = "admin@localhost.com",
                             EmailConfirmed = true,
                             FirstName = "System",
@@ -116,10 +129,10 @@ namespace Cargo.Identity.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN@LOCALHOST.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPqIFXXLc2W0QO1c0ksrVVwZRTMHlag9Hb13uZEKQGgmX7IepCV1MDdWAevvk9YLdA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOGQA5QFF4QnTAmJh7GLc0d2pagADiMxlF2F1dSDV/ZEIqM07AefuopNTaO13uMA6Q==",
                             PhoneNumberConfirmed = false,
                             PinCode = "1234567",
-                            SecurityStamp = "c8a8ffbf-3bb3-4aba-9a34-a0efd75e5624",
+                            SecurityStamp = "e55b1856-7726-42fd-b167-ab9e7c2e1c19",
                             TwoFactorEnabled = false,
                             UserName = "admin@localhost.com"
                         },
@@ -128,7 +141,9 @@ namespace Cargo.Identity.Migrations
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
                             Adress = "Baku",
-                            ConcurrencyStamp = "24967f6a-f079-4fac-9006-d69d742747c6",
+                            BranchId = new Guid("00000000-0000-0000-0000-000000000002"),
+                            ConcurrencyStamp = "52d5957b-c14d-40b0-9292-8d9310a615d8",
+                            CustomerNumber = 0,
                             Email = "user@localhost.com",
                             EmailConfirmed = true,
                             FirstName = "System",
@@ -136,10 +151,10 @@ namespace Cargo.Identity.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@LOCALHOST.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEE/ZbtkqBC6WUaAG+j2p7FYpieafwWww12snJTvc7osKjDK5cHX5dOdxh6RbIWqwTg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBorB+UOqdmH5ZhC4koiuy3kRlbT/M34LPjztm7kYUOFQkvgLQdPcTrY63nRKiyqqA==",
                             PhoneNumberConfirmed = false,
                             PinCode = "1234567",
-                            SecurityStamp = "715978c4-e119-44f6-8436-b8181f517e56",
+                            SecurityStamp = "299503ec-f9ae-42e0-8eb5-ef89b7dcc8cf",
                             TwoFactorEnabled = false,
                             UserName = "user"
                         });

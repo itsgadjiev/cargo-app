@@ -11,16 +11,13 @@ namespace Cargo.Persistence.Context
     {
         public AppDbContext(DbContextOptions<AppDbContext> dbContextOptions) : base(dbContextOptions) 
         {
-            
+            Database.EnsureCreated();
         }
-        public AppDbContext()
-        {
-            
-        }
-        public List<Branch> Filials { get; init; }
+        public DbSet<Branch> Branches { get; init; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
             base.OnModelCreating(modelBuilder);
         }

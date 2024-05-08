@@ -14,8 +14,9 @@ namespace Cargo.Application.Models.Identity
         public string PinCode { get; set; }
         [MaxLength(100)]
         public string Adress { get; set; }
-        public Branch Filial { get; set; }
-        public Guid FilialId { get; set; }
+        public Branch Branch { get; set; }
+        public Guid BranchId { get; set; }
+        public int CustomerNumber { get; set; }
     }
 }
 

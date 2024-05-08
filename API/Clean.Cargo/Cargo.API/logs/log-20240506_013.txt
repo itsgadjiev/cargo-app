@@ -1,0 +1,18 @@
+2024-05-06 22:10:38.005 +04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'Adress', N'BranchId', N'ConcurrencyStamp', N'Email', N'EmailConfirmed', N'FirstName', N'LastName', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'PinCode', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] ON;
+INSERT INTO [AspNetUsers] ([Id], [AccessFailedCount], [Adress], [BranchId], [ConcurrencyStamp], [Email], [EmailConfirmed], [FirstName], [LastName], [LockoutEnabled], [LockoutEnd], [NormalizedEmail], [NormalizedUserName], [PasswordHash], [PhoneNumber], [PhoneNumberConfirmed], [PinCode], [SecurityStamp], [TwoFactorEnabled], [UserName])
+VALUES (N'8e445865-a24d-4543-a6c6-9443d048cdb9', 0, N'Baku', '00000000-0000-0000-0000-000000000000', N'4f454ac6-9557-4187-a1e0-8e24d6403c60', N'admin@localhost.com', CAST(1 AS bit), N'System', N'Admin', CAST(0 AS bit), NULL, N'ADMIN@LOCALHOST.COM', N'ADMIN@LOCALHOST.COM', N'AQAAAAIAAYagAAAAELPpl1SkfgKS0UQZDdRbeV4gdvl0/DPWo/jH+A3kSfjylDCubjZFflOvrrwY+v5g2g==', NULL, CAST(0 AS bit), N'1234567', N'52de4978-e191-4ba7-8f57-dbe55fdd32b2', CAST(0 AS bit), N'admin@localhost.com'),
+(N'9e224968-33e4-4652-b7b7-8574d048cdb9', 0, N'Baku', '00000000-0000-0000-0000-000000000000', N'c3592ccc-3f48-419b-8c30-44bcc5c862b4', N'user@localhost.com', CAST(1 AS bit), N'System', N'User', CAST(0 AS bit), NULL, N'USER@LOCALHOST.COM', N'USER', N'AQAAAAIAAYagAAAAEL6Xxm545QHAYlCGnSeNsd79tRdyu7VXNPwNCBhw8x4lbGdIvYFvNaKb2RwLIesLYA==', NULL, CAST(0 AS bit), N'1234567', N'745923af-b699-4553-bb35-14e652b1b815', CAST(0 AS bit), N'user');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AccessFailedCount', N'Adress', N'BranchId', N'ConcurrencyStamp', N'Email', N'EmailConfirmed', N'FirstName', N'LastName', N'LockoutEnabled', N'LockoutEnd', N'NormalizedEmail', N'NormalizedUserName', N'PasswordHash', N'PhoneNumber', N'PhoneNumberConfirmed', N'PinCode', N'SecurityStamp', N'TwoFactorEnabled', N'UserName') AND [object_id] = OBJECT_ID(N'[AspNetUsers]'))
+    SET IDENTITY_INSERT [AspNetUsers] OFF;
+2024-05-06 22:12:14.092 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 22:12:14.115 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 22:12:14.117 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 22:12:14.118 +04:00 [INF] Hosting environment: Development
+2024-05-06 22:12:14.119 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 22:12:18.462 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 22:12:18.485 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 22:12:18.487 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 22:12:18.488 +04:00 [INF] Hosting environment: Development
+2024-05-06 22:12:18.489 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API

@@ -1,0 +1,15 @@
+2024-05-06 21:19:52.497 +04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Branch] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Address] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NOT NULL,
+    [UpdatedBy] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Branch] PRIMARY KEY ([Id])
+);
+2024-05-06 21:21:08.783 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:21:08.805 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:21:08.807 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:21:08.808 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:21:08.809 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API

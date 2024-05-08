@@ -23,7 +23,8 @@ namespace Cargo.Identity.Configurations
                      PasswordHash = hasher.HashPassword(null, "123"),
                      EmailConfirmed = true,
                      Adress = "Baku",
-                     PinCode = "1234567"
+                     PinCode = "1234567",
+                     BranchId = Guid.Parse("00000000-0000-0000-0000-000000000001"),
 
                  },
                  new ApplicationUser
@@ -38,7 +39,8 @@ namespace Cargo.Identity.Configurations
                      PasswordHash = hasher.HashPassword(null, "123"),
                      EmailConfirmed = true,
                      Adress = "Baku",
-                     PinCode="1234567"
+                     PinCode="1234567",
+                     BranchId = Guid.Parse("00000000-0000-0000-0000-000000000002")
                  }
             );
         }

@@ -5,6 +5,7 @@ using Cargo.Application.Features.Branch.Commands.UpdateBranch;
 using Cargo.Application.Features.Branch.Queries.GetBranchById;
 using Cargo.Application.Features.Branch.Queries.GetBranches;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cargo.API.Controllers.v1
@@ -12,6 +13,7 @@ namespace Cargo.API.Controllers.v1
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiVersion("1.0")]
     [ApiController]
+    
     public class BranchController : ControllerBase
     {
         private readonly IMediator _mediator;
@@ -21,22 +23,27 @@ namespace Cargo.API.Controllers.v1
             _mediator = mediator;
         }
 
-        [HttpGet]
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesDefaultResponseType]
+        [HttpGet]
         public async Task<IActionResult> Get()
         {
             var branches = await _mediator.Send(new GetBranchesQuery());
             return Ok(branches);
         }
 
+        [Authorize]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(Guid id)
+        public async Task<IActionResult> Get(Guid id)
         {
             return Ok(await _mediator.Send(new GetBranchByIDCommand(id)));
         }
 
+        [Authorize(Roles ="Admin")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesDefaultResponseType]
@@ -46,6 +53,7 @@ namespace Cargo.API.Controllers.v1
             return Ok(await _mediator.Send(addBranchCommand));
         }
 
+        [Authorize(Roles = "Admin")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesDefaultResponseType]
@@ -56,6 +64,8 @@ namespace Cargo.API.Controllers.v1
             return NoContent();
         }
 
+
+        [Authorize(Roles = "Admin")]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesDefaultResponseType]

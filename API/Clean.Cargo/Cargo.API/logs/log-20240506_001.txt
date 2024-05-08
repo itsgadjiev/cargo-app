@@ -1,0 +1,35 @@
+2024-05-06 21:17:19.947 +04:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Branch] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Address] nvarchar(max) NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [UpdatedAt] datetime2 NOT NULL,
+    [UpdatedBy] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Branch] PRIMARY KEY ([Id])
+);
+2024-05-06 21:17:45.351 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:17:45.373 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:17:45.376 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:17:45.377 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:17:45.378 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:17:57.130 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:17:57.151 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:17:57.153 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:17:57.153 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:17:57.154 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:19:32.716 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:19:32.738 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:19:32.739 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:19:32.739 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:19:32.741 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:19:44.014 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:19:44.035 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:19:44.037 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:19:44.038 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:19:44.038 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
+2024-05-06 21:19:52.219 +04:00 [INF] Now listening on: https://localhost:7233
+2024-05-06 21:19:52.240 +04:00 [INF] Now listening on: http://localhost:5299
+2024-05-06 21:19:52.242 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-06 21:19:52.243 +04:00 [INF] Hosting environment: Development
+2024-05-06 21:19:52.243 +04:00 [INF] Content root path: C:\Users\ceyhu\OneDrive\Рабочий стол\cargo app\API\Clean.Cargo\Cargo.API
